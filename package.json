@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "lint": "prettier --write '*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "website": "mkdir -p dist; (cat header.html; showdown makehtml -m -i README.md) > dist/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^3.0.1"
+    "fs": "0.0.1-security",
+    "gifencoder": "1.1.0",
+    "path": "^0.12.7",
+    "png-file-stream": "1.0.0",
+    "puppeteer": "^3.0.1",
+    "showdown": "^1.9.1"
   }
 }
