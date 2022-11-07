@@ -14,7 +14,7 @@
     "fs": "0.0.1-security",
     "gifencoder": "1.1.0",
     "path": "^0.12.7",
-    "png-file-stream": "1.0.0",
+    "png-file-stream": "1.2.1",
     "puppeteer": "^3.0.1",
     "showdown": "^1.9.1"
   }
